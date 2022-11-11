@@ -1,0 +1,8 @@
+mysql> create database assessment;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> use assessment;
+Database changed
+mysql>
+
+ create table userdetails(id bigint not null primary key auto_increment,username varchar(300), password varchar(300),email varchar(300), name varchar(300), role varchar(300));
